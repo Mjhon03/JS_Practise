@@ -1,0 +1,45 @@
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    font-size: 45px;
+    color: brown;
+}
+#information{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btnGen{
+    height: 50px;
+    width: 100px;
+    color:white;
+    background-color: darkblue;
+    border: none;
+}
+#card{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+}

@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-color: #5c4d7d;
+}
+header{
+    background-color: #00b4d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:7rem;
+    font-size: 2rem;
+}
+.userlogo{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.userletter{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    font-size: 3rem;
+}
+.usericon{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+main{
+    align-items:center;
+    text-align: right;
+    justify-content:space-evenly;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #98c1d9;
+    height: 1050px;
+    width: 40%;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.remainword{
+    width: 80%;
+    justify-content: right;
+    font-size:45px;
+    text-align: right;
+}
+.twitt{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+input{
+    width:80%;
+    height: 50px;
+    font-size: 2rem;
+    border-color: transparent;
+    border-bottom: 1px solid black;
+}
+input:hover{
+    border: 2px solid rgb(125, 199, 199);
+    box-shadow: 3px 3px 3px black;
+}
+textarea{
+    font-size: 2rem;
+    resize:none;
+}
+.btn{
+    color: black;
+    background-color:rgb(43, 156, 156);
+    border: none;
+    width:80%;
+    height: 50px;
+    font-size: 30px;
+    box-shadow: 3px 3px 3px black;
+}
